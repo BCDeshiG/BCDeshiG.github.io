@@ -7,6 +7,12 @@ body{
 h1,h2,h3{
 	font-weight: bold;
 }
+section{
+	margin-left: 1em;
+}
+h3,article{
+	margin-bottom: 1em;
+}
 a{
 	color: limegreen;
 }
@@ -42,43 +48,12 @@ header{
 	text-align: center;
 	padding: 5pt;
 }
-div#About{
-	margin-left: 18em;
-	margin-right: 18em;
-	text-align: center;
-}
 figure{
-	float: center;
+	float: left;
 	font-style: italic;
 	text-align: center;
 	margin-top: 1em;
-}
-div#Hobbies{
-	position: absolute;
-	float: right;
-	right: 0;
-	width: 18em;
-	top: 3em;
-	text-align: center;
-}
-div#Hobbies li{
-	list-style: none;
-}
-div#Skills{
-	position: absolute;
-	float: left;
-	left: 0;
-	width: 18em;
-	top: 3em;
-	text-align: center;
-}
-div#Links{
-	position: absolute;
-	float: left;
-	left: 0;
-	width: 18em;
-	top: 14em;
-	text-align: center;
+	margin-right: 1em;
 }
 .italics{
 	font-style: italic;
@@ -92,14 +67,6 @@ footer{
 	left: 0;
 	font-weight: bold;
 	font-size: 18pt;
-	text-align: center;
-}
-legend{
-	margin-bottom: 1em;
-	font-size: 18pt;
-	font-weight: bold;
-}
-fieldset{
 	text-align: center;
 }
 label{
@@ -120,4 +87,8 @@ label{
 }
 .button:active{
 	background-color: lightgreen;
+}
+div#Links li{
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
